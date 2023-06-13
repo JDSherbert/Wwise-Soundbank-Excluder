@@ -1,3 +1,5 @@
+// ©2023 JDSherbert
+
 using UnityEditor;
 using System.Collections.Generic;
 using UnityEditor.Build;
