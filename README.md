@@ -32,12 +32,6 @@ Usage:
 1. Drag and drop into your scripts folder, in a folder called "Editor".
 2. Do a build.
 
-Contributions:
-Contributions to this repository are welcome. If you have improvements or additional features to add, feel free to submit a pull request.
-
-License:
-All rights reserved.
-
  -----------------------------------------------------------------------
 ## Overview
 
