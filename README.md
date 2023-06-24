@@ -4,7 +4,7 @@
 # Wwise Soundbank Excluder
 
 <!-- Header Start -->
-  <a href = "https://www.audiokinetic.com/en/"><img align="left" height="40" img width="40" src="https://simpleicons.org/wwise/white"> </a>
+  <a href = "https://www.audiokinetic.com/en/"> <img align="left" height="40" img width="40" src="https://simpleicons.org/wwise/white"> </a>
   <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a> 
   <a href = "https://learn.microsoft.com/en-us/dotnet/csharp"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/csharp"> </a>
   <img align="right" alt="stars badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-Excluder"/>
@@ -14,7 +14,7 @@
   <br></br>
   -----------------------------------------------------------------------
   
-  <a href="https://www.audiokinetic.com/en/"> 
+<a href="https://www.audiokinetic.com/en/"> 
   <img align="top" alt="Extension Tool For Wwise" src="https://img.shields.io/badge/Extension%20Tool%20For%20Wwise-00549F?style=for-the-badge&logo=wwise&logoColor=white&color=black&labelColor=00549F"> </a>
     <a href="https://unity.com/"> 
   <img align="top" alt="Extension Tool For Unity" src="https://img.shields.io/badge/Extension%20Tool%20For%20Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black&color=black&labelColor=FFFFFF"> </a>
