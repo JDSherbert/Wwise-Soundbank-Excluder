@@ -10,7 +10,6 @@
   <img align="right" alt="stars badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-Excluder"/>
   <img align="right" alt="forks badge" src="https://img.shields.io/github/forks/jdsherbert/Wwise-Soundbank-Excluder=Fork"/>
   <img align="right" alt="watching badge" src="https://img.shields.io/github/watchers/jdsherbert/Wwise-Soundbank-Excluder"/>
-  <img align="right" alt="Visitors" src="https://visitor-badge.glitch.me/badge?page_id=github.com/jdsherbert/Wwise-Soundbank-Excluder"/>
   <br></br>
   -----------------------------------------------------------------------
   
