@@ -4,7 +4,7 @@
 # Wwise Soundbank Excluder
 
 <!-- Header Start -->
-  <a href = "hhttps://www.audiokinetic.com/en/"> <img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a> 
+  <a href = "hhttps://www.audiokinetic.com/en/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/wwise/white"> </a> 
   <a href = "https://docs.unity.com/"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/unity/white"> </a> 
   <a href = "https://learn.microsoft.com/en-us/dotnet/csharp"> <img align="left" img height="40" img width="40" src="https://cdn.simpleicons.org/csharp"> </a>
   <img align="right" alt="stars badge" src="https://img.shields.io/github/stars/jdsherbert/Wwise-Soundbank-Excluder"/>
