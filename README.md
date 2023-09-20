@@ -21,15 +21,16 @@
   -----------------------------------------------------------------------
 For some reason, Unity makes it incredibly difficult to exclude unused assets in the StreamingAssets folder, so here is a quick and dirty System.IO solution for making sure Wwise Soundbanks (that are not necessary) are excluded from your builds in Unity. This is an automnated tool which will run during the Unity pre and post build pipeline steps.
 
-This repository contains a build tool for excluding Wwise Soundbanks via System.IO. If the system you are running Unity on isn't the same as your target platform, you'll need to generate all the banks needed so you can listen in editor and also have the audio in the build! In addition to this, you only need the soundbank for your target platform, so any extras included are just bloat. Soundbanks can get rather huge, so it is important to keep unnecessary banks out of the build. Of course, you can just manually move/delete the files yourself.
+This repository contains a build tool for excluding Wwise Soundbanks via System.IO. If the system you are running Unity on isn't the same as your target platform, you'll need to generate all the banks needed so you can listen in editor and also have the audio in the build! In addition to this, you only need the soundbank for your target platform, so any extras included are just bloat. Soundbanks can get rather huge, so it is important to keep unnecessary banks out of the build. Of course, you can just manually move/delete the files yourself. This tool simply automates this task.
 
-This tool automates this task.
+### Notes:
+This tool is tested and known to be working with Jenkins, TeamCity, and many other CLI.
 
-Features:
+### Features:
 - Moves Soundbanks to a "Temp/ExcludedSoundbanks" folder at Unity Pre Build Step.
 - Returns Soundbanks at the Unity Post Build Step.
 
-Usage:
+### Usage:
 1. Drag and drop into your scripts folder, in a folder called "Editor".
 2. Do a build.
 
