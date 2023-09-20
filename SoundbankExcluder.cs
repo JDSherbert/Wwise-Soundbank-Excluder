@@ -1,4 +1,5 @@
-// ©2023 JDSherbert
+// ©2023 JDSherbert. All rights reserved.
+
 
 using UnityEditor;
 using System.Collections.Generic;
@@ -11,7 +12,8 @@ namespace Sherbert.Editor.Build
     /// <summary>
     /// Soundbank Build Exclusion Class that attempts to exclude Wwise soundbanks from the build during the preprocess step,
     /// if those soundbanks are unnecessary for our target platform.
-    /// Also attempts to return them back to the original path during the postprocess step. See: 
+    /// Also attempts to return them back to the original path during the postprocess step. <br></br>
+    /// See: 
     /// <see cref="IPreprocessBuildWithReport"/> and 
     /// <see cref="BuildPipelineInterfaces"/>.
     ///
@@ -31,7 +33,7 @@ namespace Sherbert.Editor.Build
         /// Path to the designated exclusion folder
         private const string _exclusionPath = "Temp/ExcludedSoundbanks";
         /// Map buildtarget to soundbank definitions
-        private readonly Dictionary<BuildTarget, string> _soundbanks = new()
+        private readonly Dictionary<BuildTarget, string> _soundbankPlatforms = new()
         {
             { BuildTarget.Android, "Android" },
             { BuildTarget.StandaloneWindows, "Windows" },
@@ -65,8 +67,8 @@ namespace Sherbert.Editor.Build
         {
             ResetDirectory(_exclusionPath); // Ensure temp folder is empty before moving
 
-            string keepBank = _soundbanks[target];
-            foreach (var soundbank in _soundbanks)
+            string keepBank = _soundbankPlatforms[target];
+            foreach (var soundbank in _soundbankPlatforms)
             {
                 if (soundbank.Value == keepBank)
                 {
@@ -87,7 +89,7 @@ namespace Sherbert.Editor.Build
         /// </summary>
         private void RestoreSoundbanks(BuildTarget target)
         {
-            foreach (var soundbank in _soundbanks)
+            foreach (var soundbank in _soundbankPlatforms)
             {
                 string startPath = Path.Combine(_exclusionPath, soundbank.Value);
                 string destinationPath = Path.Combine(_soundbankPath, soundbank.Value);
