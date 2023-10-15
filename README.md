@@ -19,6 +19,9 @@
   <img align="top" alt="Extension Tool For Wwise" src="https://img.shields.io/badge/Extension%20Tool%20For%20Wwise-00549F?style=for-the-badge&logo=wwise&logoColor=white&color=black&labelColor=00549F"> </a>
     <a href="https://unity.com/"> 
   <img align="top" alt="Extension Tool For Unity" src="https://img.shields.io/badge/Extension%20Tool%20For%20Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black&color=black&labelColor=FFFFFF"> </a>
+
+<a href="https://choosealicense.com/licenses/mit/"> 
+  <img align="right" alt="License" src="https://img.shields.io/badge/License%20:%20MIT-black?style=for-the-badge&logo=mit&logoColor=white&color=black&labelColor=black"> </a>
   
   -----------------------------------------------------------------------
 ## Overview
